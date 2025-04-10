@@ -234,7 +234,7 @@ export default function Home() {
                     <div className="flex flex-col items-center justify-center h-full relative overflow-hidden">
                       <div className="absolute inset-0">
                         <Image
-                          src="/skillsc.gif"
+                          src="/skills.gif"
                           alt="Skills animation"
                           fill
                           className="object-cover rounded-lg"
@@ -318,7 +318,7 @@ export default function Home() {
                     <div className="flex flex-col items-center justify-start h-full relative overflow-hidden">
                       <div className="absolute inset-0 pt-4">
                         <Image
-                          src="/Certificate.png"
+                          src="/certi.png"
                           alt="Certifications"
                           fill
                           className="object-cover rounded-lg"
@@ -652,7 +652,7 @@ export default function Home() {
               {/* Connect Links */}
               <div className="md:w-2/3">
                 <div className="pt-0">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-800">Connect With Me! ☺️</h2>
+                  <h2 className="text-3xl font-bold mb-6 text-gray-800">Want to connect, build or have a coffee chat? </h2>
                   <div className="space-y-4">
                     <a href="https://linkedin.com/in/akshitha-kolanupaka" className="group flex items-center gap-6">
                       <div className="bg-blue-100 p-4 rounded-full group-hover:bg-blue-100 group-hover:scale-110 transition-all duration-300">
