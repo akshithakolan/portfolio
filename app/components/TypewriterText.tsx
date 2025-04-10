@@ -7,43 +7,20 @@ interface TypewriterTextProps {
   className?: string;
 }
 
-const TypewriterText: React.FC<TypewriterTextProps> = ({ text, className }) => {
-  const [displayText, setDisplayText] = useState('');
-  const [isTyping, setIsTyping] = useState(true);
+export default function TypewriterText({ text, className }: TypewriterTextProps) {
+  const [displayText, setDisplayText] = useState("");
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    let currentIndex = 0;
-    let isDeleting = false;
-    let timeout: NodeJS.Timeout;
+    if (currentIndex < text.length) {
+      const timeout = setTimeout(() => {
+        setDisplayText((prev) => prev + text[currentIndex]);
+        setCurrentIndex((prev) => prev + 1);
+      }, 100);
 
-    const animateText = () => {
-      if (isDeleting) {
-        // Deleting text
-        if (currentIndex > 0) {
-          setDisplayText(text.slice(0, currentIndex - 1));
-          currentIndex--;
-          timeout = setTimeout(animateText, 50); // Faster deletion
-        } else {
-          isDeleting = false;
-          timeout = setTimeout(animateText, 1000); // Pause before typing again
-        }
-      } else {
-        // Typing text
-        if (currentIndex <= text.length) {
-          setDisplayText(text.slice(0, currentIndex));
-          currentIndex++;
-          timeout = setTimeout(animateText, 100); // Normal typing speed
-        } else {
-          isDeleting = true;
-          timeout = setTimeout(animateText, 2000); // Pause before deleting
-        }
-      }
-    };
-
-    timeout = setTimeout(animateText, 500); // Initial delay
-
-    return () => clearTimeout(timeout);
-  }, [text]);
+      return () => clearTimeout(timeout);
+    }
+  }, [currentIndex, text]);
 
   return (
     <span className={className}>
@@ -51,6 +28,4 @@ const TypewriterText: React.FC<TypewriterTextProps> = ({ text, className }) => {
       <span className="animate-pulse">|</span>
     </span>
   );
-};
-
-export default TypewriterText; 
+} 

@@ -3,8 +3,6 @@ import Link from "next/link";
 import AnimatedBackground from "./components/AnimatedBackground";
 import TypewriterText from "./components/TypewriterText";
 import TerminalIcon from "./components/TerminalIcon";
-import Timeline from "./components/Timeline";
-import SkillBars from "./components/SkillBars";
 import FlipCard from './components/FlipCard';
 import AnimatedWindow from './components/AnimatedWindow';
 
@@ -16,7 +14,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="text-gray-700 font-semibold hover:text-gray-900 transition-colors">
-              The Kolanupaka's Konsole 🖥️
+              The Kolanupaka&apos;s Konsole 🖥️
             </Link>
             <div className="flex gap-8">
               <Link href="#about" className="text-gray-600 hover:text-blue-600 transition-colors relative group">
@@ -210,7 +208,7 @@ export default function Home() {
 
                         <div>
                           <h3 className="text-xl font-bold text-gray-800">CMR College of Engineering and Technology</h3>
-                          <p className="text-gray-600 mt-2">Bachelor's in Computer Science • Hyderabad, TS</p>
+                          <p className="text-gray-600 mt-2">Bachelor&apos;s in Computer Science • Hyderabad, TS</p>
                           <p className="text-gray-600 mt-1">July 2023</p>
                         </div>
                       </div>
@@ -359,7 +357,7 @@ export default function Home() {
                         <div className="border-t border-gray-200 pt-6">
                           <h3 className="text-xl font-bold text-gray-800">JP Morgan Virtual Experience</h3>
                           <p className="text-gray-600 mt-1">Forage</p>
-                          <p className="text-gray-600 mt-2">Set up a development environment, fixed repository issues, and utilized JPMorgan's perspective library to create a real-time data visualization tool for traders.</p>
+                          <p className="text-gray-600 mt-2">Set up a development environment, fixed repository issues, and utilized JPMorgan&apos;s perspective library to create a real-time data visualization tool for traders.</p>
                         </div>
                         
                         <div className="border-t border-gray-200 pt-6">
@@ -652,7 +650,8 @@ export default function Home() {
               {/* Connect Links */}
               <div className="md:w-2/3">
                 <div className="pt-0">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-800">Want to connect, build or have a coffee chat? </h2>
+                  <h2 className="text-3xl font-bold mb-6 text-gray-800">Connect With Me! ☺️</h2>
+                  <p className="text-gray-600 mb-6">Want to collaborate, build or coffee chat? Let&apos;s connect here!</p>
                   <div className="space-y-4">
                     <a href="https://linkedin.com/in/akshitha-kolanupaka" className="group flex items-center gap-6">
                       <div className="bg-blue-100 p-4 rounded-full group-hover:bg-blue-100 group-hover:scale-110 transition-all duration-300">
@@ -662,7 +661,7 @@ export default function Home() {
                       </div>
                       <div>
                         <span className="text-lg font-semibold text-gray-800 group-hover:text-blue-600 transition-colors duration-300">LinkedIn</span>
-                        <p className="text-gray-600 mt-1">Let’s Turn Connections Into Collaborations</p>
+                        <p className="text-gray-600 mt-1">Let&apos;s Turn Connections Into Collaborations</p>
                       </div>
                     </a>
                     
