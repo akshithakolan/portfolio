@@ -13,33 +13,38 @@ export default function Home() {
       <nav className="bg-white/80 backdrop-blur-sm fixed w-full z-50 shadow-md">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
-            <Link href="/" className="text-gray-700 font-semibold hover:text-gray-900 transition-colors">
-              The Kolanupaka&apos;s Konsole 🖥️
+            <Link href="/" className="flex items-center gap-2">
+              <div className="w-10 h-10 rounded-full overflow-hidden">
+                <Image
+                  src="/Naruto.jpeg"
+                  alt="Logo"
+                  width={40}
+                  height={40}
+                  className="object-cover"
+                />
+              </div>
+              <span className="text-gray-700 font-semibold hover:text-gray-900 transition-colors">
+                The Kolanupaka&apos;s Konsole 🖥️
+              </span>
             </Link>
             <div className="flex gap-8">
-              <Link href="#about" className="text-gray-600 hover:text-blue-600 transition-colors relative group">
+              <Link href="#about" className="text-gray-600 hover:text-amber-600 hover:scale-105 transition-all duration-300 relative group">
                 About
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
               </Link>
-              <Link href="#education" className="text-gray-600 hover:text-blue-600 transition-colors relative group">
-                Education
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+              <Link href="#journey" className="text-gray-600 hover:text-amber-600 hover:scale-105 transition-all duration-300 relative group">
+                Journey
               </Link>
-              <Link href="#skills" className="text-gray-600 hover:text-blue-600 transition-colors relative group">
-                Skills
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </Link>
-              <Link href="#certifications" className="text-gray-600 hover:text-blue-600 transition-colors relative group">
-                Certifications
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </Link>
-              <Link href="#projects" className="text-gray-600 hover:text-blue-600 transition-colors relative group">
+              <Link href="#projects" className="text-gray-600 hover:text-amber-600 hover:scale-105 transition-all duration-300 relative group">
                 Projects
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
               </Link>
-              <Link href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors relative group">
-                Contact
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+              <Link href="#skills" className="text-gray-600 hover:text-amber-600 hover:scale-105 transition-all duration-300 relative group">
+                Skills
+              </Link>
+              <Link href="#certifications" className="text-gray-600 hover:text-amber-600 hover:scale-105 transition-all duration-300 relative group">
+                Certifications
+              </Link>
+              <Link href="#experience" className="text-gray-600 hover:text-amber-600 hover:scale-105 transition-all duration-300 relative group">
+                Experience
               </Link>
             </div>
           </div>
@@ -143,6 +148,7 @@ export default function Home() {
               <div className="md:w-1/3">
                 <AnimatedWindow 
                   title="Who am I?"
+                  iconSrc="/who.jpeg"
                 />
               </div>
             </div>
@@ -158,6 +164,7 @@ export default function Home() {
               <div className="md:w-1/3">
                 <AnimatedWindow 
                   title="My Level-Up Journey"
+                  iconSrc="/sung.jpeg"
                 />
               </div>
               
@@ -267,7 +274,7 @@ export default function Home() {
                         </div>
 
                         {/* Skills */}
-                        <div className="relative z-10 mt-4 pt-9 border-t border-gray-200">
+                        <div className="relative z-10 mt-4 pt-9 border-gray-200">
                           <div className="flex flex-wrap gap-2">
                             <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm text-glow">Python</span>
                             <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm text-glow">PostgreSQL</span>
@@ -320,7 +327,7 @@ export default function Home() {
                         </div>
 
                         {/* Skills */}
-                        <div className="relative z-10 mt-4 pt-9 border-t border-gray-200">
+                        <div className="relative z-10 mt-4 pt-9 border-gray-200">
                           <div className="flex flex-wrap gap-2">
                             <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm text-glow">Gen-AI</span>
                             <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm text-glow">JavaScript</span>
@@ -501,6 +508,7 @@ export default function Home() {
                 <AnimatedWindow 
                   title="Git Commit – My Creations 🔮"
                   titleAlignment="right"
+                  iconSrc="/projects.jpeg"
                 />
               </div>
             </div>
@@ -516,6 +524,7 @@ export default function Home() {
               <div className="md:w-1/3">
                 <AnimatedWindow 
                   title="Mission: Experience"
+                  iconSrc="/mission.jpeg"
                 />
               </div>
               
@@ -646,6 +655,7 @@ export default function Home() {
               <div className="md:w-1/3">
                 <AnimatedWindow 
                   title="Code Ingredients"
+                  iconSrc="/ing.jpeg"
                 />
               </div>
             </div>
@@ -661,6 +671,7 @@ export default function Home() {
               <div className="md:w-1/3">
                 <AnimatedWindow 
                   title="The Credential Collection"
+                  iconSrc="/cred.jpeg"
                 />
               </div>
               

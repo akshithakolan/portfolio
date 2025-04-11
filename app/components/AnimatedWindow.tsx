@@ -1,13 +1,15 @@
 'use client';
 
 import { useEffect } from 'react';
+import Image from 'next/image';
 
 interface AnimatedWindowProps {
   title: string;
   titleAlignment?: 'left' | 'right' | 'center';
+  iconSrc?: string;
 }
 
-export default function AnimatedWindow({ title, titleAlignment = 'left' }: AnimatedWindowProps) {
+export default function AnimatedWindow({ title, titleAlignment = 'left', iconSrc = '/Naruto.jpeg' }: AnimatedWindowProps) {
   useEffect(() => {
     const style = document.createElement('style');
     style.textContent = `
@@ -40,8 +42,19 @@ export default function AnimatedWindow({ title, titleAlignment = 'left' }: Anima
       </div>
       {/* Window Content */}
       <div className="pt-8">
-        <h2 className={`text-3xl font-bold ${alignmentClass} text-gray-800 relative inline-block`}>
-          <span className="relative z-10">{title}</span>
+        <h2 className={`text-3xl font-bold ${alignmentClass} text-gray-800 relative inline-block w-full`}>
+          <div className={`flex items-center gap-3 ${titleAlignment === 'right' ? 'justify-end' : titleAlignment === 'center' ? 'justify-center' : 'justify-start'}`}>
+            <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0">
+              <Image
+                src={iconSrc}
+                alt="Section Icon"
+                width={48}
+                height={48}
+                className="object-cover"
+              />
+            </div>
+            <span className="relative z-10">{title}</span>
+          </div>
         </h2>
       </div>
     </div>
