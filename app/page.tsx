@@ -126,13 +126,13 @@ export default function Home() {
                       {/* Content */}
                       <div className="relative z-10">
                         <p className="text-gray-600 leading-relaxed animate-slide-up mb-4 text-glow">
-                        A passionate software engineer who finds joy in solving real-world problems through clean, thoughtful code. Whether it's designing systems, collaborating on projects, or just diving deep into a new concept, I love the process of building things that matter.
+                        A passionate software engineer who finds joy in solving real-world problems through clean, thoughtful code. Whether it&apos;s designing systems, collaborating on projects, or just diving deep into a new concept, I love the process of building things that matter.
                         </p>
                         <p className="text-gray-600 leading-relaxed animate-slide-up mb-4 text-glow">
-                        I'm currently wrapping up my Master's in Software Engineering at George Mason University and actively looking for a full-time role where I can contribute meaningfully, grow as a developer, and be part of a team that values innovation, empathy, and purpose.
+                        I&apos;m currently wrapping up my Master&apos;s in Software Engineering at George Mason University and actively looking for a full-time role where I can contribute meaningfully, grow as a developer, and be part of a team that values innovation, empathy, and purpose.
                         </p>
                         <p className="text-gray-600 leading-relaxed animate-slide-up text-glow">
-                        Outside of tech, I'm a huge anime fan (yes, I've cried during emotional finales), and a big-time foodie always on the lookout for the next flavor adventure. These little passions remind me to stay curious, creative, and always hungry—in code and in life.
+                        Outside of tech, I&apos;m a huge anime fan (yes, I&apos;ve cried during emotional finales), and a big-time foodie always on the lookout for the next flavor adventure. These little passions remind me to stay curious, creative, and always hungry—in code and in life.
                         </p>
                       </div>
                     </div>
@@ -750,8 +750,8 @@ export default function Home() {
               <div className="md:w-2/3">
                 <div className="pt-0">
                   <h2 className="text-3xl font-bold mb-6 text-gray-800"> Connect with me to collaborate or discuss anything tech-related.</h2>
-                  <p className="text-gray-600 mb-6">Whether it's building something cool or geeking out over the latest tech trends, I'm all in.
-                  Let's make it happen!</p>
+                  <p className="text-gray-600 mb-6">Whether it&apos;s building something cool or geeking out over the latest tech trends, I&apos;m all in.
+                  Let&apos;s make it happen!</p>
                   <div className="space-y-4">
                     <a href="https://linkedin.com/in/akshitha-kolanupaka" className="group flex items-center gap-6">
                       <div className="bg-blue-100 p-4 rounded-full group-hover:bg-blue-100 group-hover:scale-110 transition-all duration-300 group-hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]">
