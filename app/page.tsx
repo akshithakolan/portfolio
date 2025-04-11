@@ -733,7 +733,7 @@ export default function Home() {
               {/* Profile Picture */}
               <div className="md:w-1/3">
                 <div className="relative">
-                  <div className="w-48 h-48 mx-auto rounded-full overflow-hidden shadow-lg">
+                  <div className="w-48 h-48 mx-auto rounded-full overflow-hidden shadow-lg relative transform transition-all duration-500 hover:scale-105">
                     <Image
                       src="/contact.jpeg"
                       alt="Anime Profile Picture"
