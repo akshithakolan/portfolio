@@ -4,9 +4,10 @@ import { useEffect } from 'react';
 
 interface AnimatedWindowProps {
   title: string;
+  titleAlignment?: 'left' | 'right' | 'center';
 }
 
-export default function AnimatedWindow({ title }: AnimatedWindowProps) {
+export default function AnimatedWindow({ title, titleAlignment = 'left' }: AnimatedWindowProps) {
   useEffect(() => {
     const style = document.createElement('style');
     style.textContent = `
@@ -24,6 +25,9 @@ export default function AnimatedWindow({ title }: AnimatedWindowProps) {
     };
   }, []);
 
+  const alignmentClass = titleAlignment === 'right' ? 'text-right' : 
+                         titleAlignment === 'center' ? 'text-center' : 'text-left';
+
   return (
     <div className="relative bg-white/80 backdrop-blur-sm rounded-lg shadow-lg p-4 hover:scale-105 transition-transform duration-300 animate-bounce-small">
       {/* Window Header */}
@@ -36,7 +40,7 @@ export default function AnimatedWindow({ title }: AnimatedWindowProps) {
       </div>
       {/* Window Content */}
       <div className="pt-8">
-        <h2 className="text-3xl font-bold text-left text-gray-800 relative inline-block">
+        <h2 className={`text-3xl font-bold ${alignmentClass} text-gray-800 relative inline-block`}>
           <span className="relative z-10">{title}</span>
         </h2>
       </div>
