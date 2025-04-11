@@ -53,7 +53,6 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-50 to-blue-100 text-gray-800 py-20 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-5 animate-pulse"></div>
         <div className="container mx-auto px-4 relative">
           <div className="max-w-4xl mx-auto">
             <div className="flex flex-col md:flex-row items-center gap-12 justify-center">
@@ -149,6 +148,7 @@ export default function Home() {
                 <AnimatedWindow 
                   title="Who am I?"
                   iconSrc="/who.jpeg"
+                  showQuote={true}
                 />
               </div>
             </div>
@@ -165,6 +165,7 @@ export default function Home() {
                 <AnimatedWindow 
                   title="My Level-Up Journey"
                   iconSrc="/sung.jpeg"
+                  showQuote={true}
                 />
               </div>
               
@@ -238,7 +239,7 @@ export default function Home() {
                       <div className="flex flex-col items-center justify-center h-full relative overflow-hidden">
                         <div className="absolute inset-0">
                           <Image
-                            src="/proj.jpeg"
+                            src="/finan.png"
                             alt="Financial Analytics"
                             fill
                             className="object-cover rounded-lg"
@@ -291,7 +292,7 @@ export default function Home() {
                       <div className="flex flex-col items-center justify-center h-full relative overflow-hidden">
                         <div className="absolute inset-0">
                           <Image
-                            src="/proj.jpeg"
+                            src="/genai.png"
                             alt="Generative AI"
                             fill
                             className="object-cover rounded-lg"
@@ -300,7 +301,7 @@ export default function Home() {
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex items-end justify-center pb-8">
                             <div className="text-center px-4">
-                              <h3 className="text-2xl font-bold text-white mb-3">Generative AI Content Creation</h3>
+                              <h3 className="text-2xl font-bold text-white mb-3">Web App Using Gen AI</h3>
                             </div>
                           </div>
                         </div>
@@ -344,7 +345,7 @@ export default function Home() {
                       <div className="flex flex-col items-center justify-center h-full relative overflow-hidden">
                         <div className="absolute inset-0">
                           <Image
-                            src="/proj.jpeg"
+                            src="/micrp.png"
                             alt="Microservices"
                             fill
                             className="object-cover rounded-lg"
@@ -398,7 +399,7 @@ export default function Home() {
                       <div className="flex flex-col items-center justify-center h-full relative overflow-hidden">
                         <div className="absolute inset-0">
                           <Image
-                            src="/proj.jpeg"
+                            src="/aws.png"
                             alt="AWS Cloud Deployment"
                             fill
                             className="object-cover rounded-lg"
@@ -453,7 +454,7 @@ export default function Home() {
                       <div className="flex flex-col items-center justify-center h-full relative overflow-hidden">
                         <div className="absolute inset-0">
                           <Image
-                            src="/proj.jpeg"
+                            src="/xquant.png"
                             alt="XQuantiPy"
                             fill
                             className="object-cover rounded-lg"
@@ -488,7 +489,7 @@ export default function Home() {
                           <p className="text-gray-600 mt-2 text-glow">Created a Python package for financial data analysis with 20+ technical indicators. Implemented visualization tools using Matplotlib and Plotly, reducing analysis time by 30%.</p>
                         </div>
 
-                        {/* Skills */}
+      {/* Skills */}
                         <div className="relative z-10 mt-4 pt-4 border-t border-gray-200">
                           <div className="flex flex-wrap gap-2">
                             <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm text-glow">Python</span>
@@ -507,8 +508,9 @@ export default function Home() {
               <div className="md:w-1/3">
                 <AnimatedWindow 
                   title="Git Commit – My Creations 🔮"
-                  titleAlignment="right"
+                  titleAlignment="left"
                   iconSrc="/projects.jpeg"
+                  showQuote={true}
                 />
               </div>
             </div>
@@ -525,6 +527,7 @@ export default function Home() {
                 <AnimatedWindow 
                   title="Mission: Experience"
                   iconSrc="/mission.jpeg"
+                  showQuote={true}
                 />
               </div>
               
@@ -656,6 +659,7 @@ export default function Home() {
                 <AnimatedWindow 
                   title="Code Ingredients"
                   iconSrc="/ing.jpeg"
+                  showQuote={true}
                 />
               </div>
             </div>
@@ -672,6 +676,7 @@ export default function Home() {
                 <AnimatedWindow 
                   title="The Credential Collection"
                   iconSrc="/cred.jpeg"
+                  showQuote={true}
                 />
               </div>
               
