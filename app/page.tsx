@@ -31,7 +31,7 @@ export default function Home() {
       <section id="hero" className="py-12 sm:py-16 md:py-20 w-full overflow-x-hidden bg-[radial-gradient(#98a69e,transparent_1px)] [background-size:16px_16px] lg:[mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)]">
         <div className="px-6 sm:px-8 md:px-12 lg:px-16 max-w-screen-xl w-full mx-auto w-full">
           <div className="py-6 px-6 mx-auto w-full text-center lg:py-12 lg:px-12">
-            <h1 className="mb-4 text-2xl font-extrabold tracking-tight leading-none text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+            <h1 className="mb-4 text-2xl font-extrabold tracking-tight leading-none text-gray-900 md:text-3xl lg:text-4xl">
               Building the Future, Line by Line.
             </h1>
             <p className="mb-6 font-normal text-slate-800 text-sm lg:text-base sm:px-16 xl:px-48">
@@ -230,7 +230,7 @@ export default function Home() {
                 <div className="group relative flex items-start w-full space-x-4 pb-8">
                   <div className="absolute left-6 top-12 h-full w-0.5 bg-gray-200 group-last:hidden"></div>
                   <div className="relative z-10 flex-shrink-0">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md ring-2 ring-gray-100 dark:bg-gray-800 dark:ring-gray-700">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md ring-2 ring-gray-100">
                       <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
                         <span className="text-gray-600 font-bold text-sm">C</span>
                       </div>
@@ -240,11 +240,11 @@ export default function Home() {
                     <div className="relative rounded-xl border border-gray-200 bg-white py-4 px-5 shadow-sm before:content-[''] before:absolute before:left-[-8px] before:top-6 before:h-0 before:w-0 before:border-t-8 before:border-r-8 before:border-b-8 before:border-l-0 before:border-transparent before:border-r-gray-200">
                       <div className="mb-2 flex flex-col sm:flex-row sm:items-center sm:justify-between">
                         <div>
-                          <h3 className="font-semibold text-base sm:text-lg text-gray-900 dark:text-gray-100">Software Developer</h3>
-                          <p className="text-sm font-medium text-gray-700 dark:text-gray-300">Cavaro.io – Self Initiated</p>
+                          <h3 className="font-semibold text-base sm:text-lg text-gray-900">Software Developer</h3>
+                          <p className="text-sm font-medium text-gray-700">Cavaro.io – Self Initiated</p>
                         </div>
                         <div className="mt-1 sm:mt-0 sm:text-right">
-                          <time className="text-xs font-medium text-gray-600 dark:text-gray-400">May 2025 - Present</time>
+                          <time className="text-xs font-medium text-gray-600">May 2025 - Present</time>
                         </div>
                       </div>
                       <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-gray-600">
@@ -282,7 +282,7 @@ export default function Home() {
                 <div className="group relative flex items-start w-full space-x-4 pb-8">
                   <div className="absolute left-6 top-12 h-full w-0.5 bg-gray-200 group-last:hidden"></div>
                   <div className="relative z-10 flex-shrink-0">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md ring-2 ring-gray-100 dark:bg-gray-800 dark:ring-gray-700">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md ring-2 ring-gray-100">
                       <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
                         <span className="text-gray-600 font-bold text-sm">GMU</span>
                       </div>
@@ -292,11 +292,11 @@ export default function Home() {
                     <div className="relative rounded-xl border border-gray-200 bg-white py-4 px-5 shadow-sm before:content-[''] before:absolute before:left-[-8px] before:top-6 before:h-0 before:w-0 before:border-t-8 before:border-r-8 before:border-b-8 before:border-l-0 before:border-transparent before:border-r-gray-200">
                       <div className="mb-2 flex flex-col sm:flex-row sm:items-center sm:justify-between">
                         <div>
-                          <h3 className="font-semibold text-base sm:text-lg text-gray-900 dark:text-gray-100">Software Engineer - GTA</h3>
-                          <p className="text-sm font-medium text-gray-700 dark:text-gray-300">George Mason University</p>
+                          <h3 className="font-semibold text-base sm:text-lg text-gray-900">Software Engineer - GTA</h3>
+                          <p className="text-sm font-medium text-gray-700">George Mason University</p>
                         </div>
                         <div className="mt-1 sm:mt-0 sm:text-right">
-                          <time className="text-xs font-medium text-gray-600 dark:text-gray-400">Aug 2023 - May 2025</time>
+                          <time className="text-xs font-medium text-gray-600">Aug 2023 - May 2025</time>
                         </div>
                       </div>
                       <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-gray-600">
@@ -331,7 +331,7 @@ export default function Home() {
                 <div className="group relative flex items-start w-full space-x-4 pb-8">
                   <div className="absolute left-6 top-12 h-full w-0.5 bg-gray-200 group-last:hidden"></div>
                   <div className="relative z-10 flex-shrink-0">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md ring-2 ring-gray-100 dark:bg-gray-800 dark:ring-gray-700">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md ring-2 ring-gray-100">
                       <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
                         <span className="text-gray-600 font-bold text-sm">V</span>
                       </div>
@@ -341,11 +341,11 @@ export default function Home() {
                     <div className="relative rounded-xl border border-gray-200 bg-white py-4 px-5 shadow-sm before:content-[''] before:absolute before:left-[-8px] before:top-6 before:h-0 before:w-0 before:border-t-8 before:border-r-8 before:border-b-8 before:border-l-0 before:border-transparent before:border-r-gray-200">
                       <div className="mb-2 flex flex-col sm:flex-row sm:items-center sm:justify-between">
                         <div>
-                          <h3 className="font-semibold text-base sm:text-lg text-gray-900 dark:text-gray-100">Backend Software Engineer Intern</h3>
-                          <p className="text-sm font-medium text-gray-700 dark:text-gray-300">Verzeo</p>
+                          <h3 className="font-semibold text-base sm:text-lg text-gray-900">Backend Software Engineer Intern</h3>
+                          <p className="text-sm font-medium text-gray-700">Verzeo</p>
                         </div>
                         <div className="mt-1 sm:mt-0 sm:text-right">
-                          <time className="text-xs font-medium text-gray-600 dark:text-gray-400">Jan 2023 - July 2023</time>
+                          <time className="text-xs font-medium text-gray-600">Jan 2023 - July 2023</time>
                         </div>
                       </div>
                       <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-gray-600">
@@ -523,7 +523,7 @@ export default function Home() {
                 <div className="group relative flex items-start w-full space-x-4 pb-8">
                   <div className="absolute left-6 top-12 h-full w-0.5 bg-gray-200 group-last:hidden"></div>
                   <div className="relative z-10 flex-shrink-0">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md ring-2 ring-gray-100 dark:bg-gray-800 dark:ring-gray-700">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md ring-2 ring-gray-100">
                       <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
                         <span className="text-gray-600 font-bold text-sm">GMU</span>
                       </div>
@@ -533,11 +533,11 @@ export default function Home() {
                     <div className="relative rounded-xl border border-gray-200 bg-white py-4 px-5 shadow-sm before:content-[''] before:absolute before:left-[-8px] before:top-6 before:h-0 before:w-0 before:border-t-8 before:border-r-8 before:border-b-8 before:border-l-0 before:border-transparent before:border-r-gray-200">
                       <div className="mb-2 flex flex-col sm:flex-row sm:items-center sm:justify-between">
                         <div>
-                          <h3 className="font-semibold text-base sm:text-lg text-gray-900 dark:text-gray-100">Master's degree in Computer Software Engineering</h3>
-                          <p className="text-sm font-medium text-gray-700 dark:text-gray-300">George Mason University</p>
+                          <h3 className="font-semibold text-base sm:text-lg text-gray-900">Master's degree in Computer Software Engineering</h3>
+                          <p className="text-sm font-medium text-gray-700">George Mason University</p>
                         </div>
                         <div className="mt-1 sm:mt-0 sm:text-right">
-                          <time className="text-xs font-medium text-gray-600 dark:text-gray-400">May 2025</time>
+                          <time className="text-xs font-medium text-gray-600">May 2025</time>
                         </div>
                       </div>
                       <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-gray-600">
@@ -572,7 +572,7 @@ export default function Home() {
                 <div className="group relative flex items-start w-full space-x-4 pb-8">
                   <div className="absolute left-6 top-12 h-full w-0.5 bg-gray-200 group-last:hidden"></div>
                   <div className="relative z-10 flex-shrink-0">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md ring-2 ring-gray-100 dark:bg-gray-800 dark:ring-gray-700">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md ring-2 ring-gray-100">
                       <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
                         <span className="text-gray-600 font-bold text-sm">JNTU</span>
               </div>
@@ -582,11 +582,11 @@ export default function Home() {
                     <div className="relative rounded-xl border border-gray-200 bg-white py-4 px-5 shadow-sm before:content-[''] before:absolute before:left-[-8px] before:top-6 before:h-0 before:w-0 before:border-t-8 before:border-r-8 before:border-b-8 before:border-l-0 before:border-transparent before:border-r-gray-200">
                       <div className="mb-2 flex flex-col sm:flex-row sm:items-center sm:justify-between">
                         <div>
-                          <h3 className="font-semibold text-base sm:text-lg text-gray-900 dark:text-gray-100">Bachelor's degree in Computer Science</h3>
-                          <p className="text-sm font-medium text-gray-700 dark:text-gray-300">Jawaharlal Nehru Technological University</p>
+                          <h3 className="font-semibold text-base sm:text-lg text-gray-900">Bachelor's degree in Computer Science</h3>
+                          <p className="text-sm font-medium text-gray-700">Jawaharlal Nehru Technological University</p>
         </div>
                         <div className="mt-1 sm:mt-0 sm:text-right">
-                          <time className="text-xs font-medium text-gray-600 dark:text-gray-400">May 2023</time>
+                          <time className="text-xs font-medium text-gray-600">May 2023</time>
                         </div>
                       </div>
                       <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-gray-600">
